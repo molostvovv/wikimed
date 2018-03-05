@@ -1,0 +1,60 @@
+section {
+  width: 1440px;
+  height: 800px;
+  overflow: hidden;
+}
+
+p {
+    font-size: 26px;
+    line-height: 38px;
+}
+
+.firstL {
+  margin-top: 21px;
+}
+
+h2 {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 36px;
+    line-height: 46px;
+}
+
+/* .all {
+  display: block;
+} */
+
+.textblock {
+  position: absolute;
+  margin-top: 147px;
+  width: 580px;
+
+}
+
+.second .textblock {
+  right: 160px;
+}
+
+.first .textblock {
+  left: 160px;
+}
+
+.last .textblock {
+ position: relative;
+ margin: 0 auto;
+ text-align: center;
+ width: 100%;
+
+}
+
+.img , .imglast {
+  position: absolute;
+  background-size: cover;
+}
+
+.first .img {
+  right: 0;
+}
+
+.first .imglast {
+  right: -732px;
+}
